@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #424242;
+    justify-content: center;
+    box-sizing: 0;
+}
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1080px;
+    filter: blur(90px);
+
+    z-index: -1;
+    margin-top: -200px;
+
+}
+.voltar {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 30px 20px;
+    background: transparent;
+    border: none;
+}
+.voltar p {
+    color: white;
+    margin-left: 10px;
+}
+.voltar :hover {
+    font-weight: 600;
+}
+.voltar img {
+    width: 20px;
+}
+
+.container-principal {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.img-logo img {
+    width: 200px;
+}
+.img-logo p {
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.img-logo button {
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    background-color: #f44336;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+}
+.img-logo button:hover {
+    color: black;
+}
+/* LOOOGIIIINNNNN */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+
+#loginForm {
+    color: white;
+    border: 1px solid #f44336;
+    border-radius: 20px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    backdrop-filter: blur(50px);
+    z-index: 3;
+    width: 450px;
+    height: 400px;
+}
+#loginForm h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.conteudo {
+    margin-left: 50px;
+    width: 100px;
+    margin-top: 60px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.conteudo input {
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.conteudo input:hover {
+    border: 1px solid #f44336;
+}
+
+
+.hidden {
+    display: none;
+}
